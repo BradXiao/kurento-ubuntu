@@ -1,0 +1,18 @@
+[submodule "gstreamer"]
+	path = gstreamer
+	url = https://github.com/Kurento/gstreamer.git
+[submodule "libsrtp"]
+	path = libsrtp
+	url = https://github.com/Kurento/libsrtp.git
+[submodule "gst-plugins-base"]
+	path = gst-plugins-base
+	url = https://github.com/Kurento/gst-plugins-base.git
+[submodule "gst-plugins-bad"]
+	path = gst-plugins-bad
+	url = https://github.com/Kurento/gst-plugins-bad.git
+[submodule "openh264"]
+	path = openh264
+	url = https://github.com/cisco/openh264.git
+[submodule "openwebrtc-gst-plugins"]
+	path = openwebrtc-gst-plugins
+	url = https://github.com/Kurento/openwebrtc-gst-plugins.git

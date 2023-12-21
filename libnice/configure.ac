@@ -252,24 +252,24 @@ AC_ARG_WITH(gstreamer-0.10,
 AS_IF([test "$with_gstreamer" != no], [
 
 	PKG_CHECK_MODULES(GST, [
-		gstreamer-1.0 >= 0.11.91
-		gstreamer-base-1.0 >= 0.11.91
+		gstreamer-1.5 >= 0.11.91
+		gstreamer-base-1.5 >= 0.11.91
 		],
 		[
 		with_gstreamer=yes
-		GST_MAJORMINOR=1.0
+		GST_MAJORMINOR=1.5
 		gstplugindir="\$(libdir)/gstreamer-$GST_MAJORMINOR"
 		],
 		[
 		AS_IF([test "$with_gstreamer" = yes], [
-			AC_MSG_ERROR([GStreamer 1.0 support was requested but GStreamer 1.0 libraries are not available])
+			AC_MSG_ERROR([GStreamer 1.5 support was requested but GStreamer 1.5 libraries are not available])
 		])
 
 		with_gstreamer=no
 		])
 
 	PKG_CHECK_MODULES(GST_CHECK, [
-		gstreamer-check-1.0 >= 0.11.91
+		gstreamer-check-1.5 >= 0.11.91
 		],
 		[
 		have_gst_check=yes

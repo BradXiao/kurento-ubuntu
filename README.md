@@ -1,6 +1,6 @@
 # Kurento Media Server (KMS) for Ubuntu 22.04 LTS
 
-This repo contains KMS source code from [kurentu](https://github.com/Kurento/kurento) with minor modifications and other dependencies forked on Dec. 19th, 2023. The pre-build binaries for Ubuntu 22.04 (amd64) are also provided.
+This repo contains KMS source code from [kurentu](https://github.com/Kurento/kurento) with minor modifications and other dependencies forked on Dec. 19th, 2023. The pre-built binaries for Ubuntu 22.04 (amd64) are also provided.
 
 
 Most of the modifications involve replacing 'gstreamer-1.0' with the older 'gstreamer-1.5' because the official KMS 7.0.2 doesn't work on Ubuntu 22.04. This is the temporary soultion and for test only. The modifications are listed in the following table.
@@ -19,7 +19,7 @@ Most of the modifications involve replacing 'gstreamer-1.0' with the older 'gstr
 |kurento server|[kurento](https://github.com/Kurento/kurento)|[Yes](https://github.com/BradXiao/kurento-ubuntu/commit/0cf29111c75f455c02b21366a0c7634117443161)|
 
 
-## Pre-build binaries (for normal users)
+## Pre-built binaries (for normal users)
 
 ### Fast installation
 The script will install necessary packages, extract KMS binaries and create a KMS systemd service.
